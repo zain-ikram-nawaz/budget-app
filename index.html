@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="main-container">
+
+<!-- budget  -->
+
+        <div class="budget">
+            <h2> <b>Budget</b>App</h2>
+            <input type="number" placeholder="Enter a Budget Ammount" id="budget">
+            <button onclick="budgetx()" id="b-butn">Add budget</button>
+        </div>
+
+<!-- table -->
+
+        <div class="detailed">
+            <h2> <b>Expense</b> Detailed</h2>
+            <table id="box">
+                <th><h4>Category</h4></th>
+                <th><h4>Discription</h4></th>
+                <th><h4>Expenses</h4></th>
+            </table>    
+        </div>
+    </div>
+
+<!-- form -->
+
+<div class="section">
+    <form id="show-form">
+        <h3>Date*</h3>
+        <input type="date" id="date">
+        <br>
+        <h3>Category*</h3>
+        <select name="" id="select">
+            <option>Food</option>
+            <option>Entertaiment</option>
+            <option>Grocery</option>
+            <option>Rent</option>
+            <option>Transport</option>
+            <option>Clothes and Shooping</option>
+            <option>Electric Bill</option>
+            <option>Medicies</option>
+        </select>
+
+        <h3>Total Amount*</h3>
+        <input type="text" id="total-amount" placeholder="Enter Total Mount">
+        
+       
+        
+        <h3>Discription*</h3>
+        <input type="text" id="Discription" placeholder="DiscriptionHere">
+    </form>
+    <button id="submit" onclick="submit()">Submit</button>
+
+<!-- balance detailed -->
+
+    <div class="balance-detail">
+
+        <div >
+            <h3>Total Budget <h6 id="total-budget"></h6></h3>
+            
+        </div>
+        <div >
+            <h3>Total Expense <h6 id="total-expenses"></h6></h3>
+        </div>
+        <div >
+            <h3>Remaining Balance <h6 id="balance"></h6></h3>
+        </div>
+    </div>
+    
+</div>
+</div>
+         
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>

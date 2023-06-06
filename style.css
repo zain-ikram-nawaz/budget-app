@@ -1,0 +1,96 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    height:100vh;
+}
+.main-container{
+    display: flex;
+padding-top: 10%;
+}
+
+.main-container button{
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgb(15, 88, 13);
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 28%;
+    margin-top: 10px;
+}
+
+input,select{
+    width: 330px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    
+}
+
+ .section button{
+    width: 130px;
+    height: 40px;
+    border: 1px solid rgb(15, 88, 13);
+    border-radius: 10px;
+    left: 8%;
+    position: relative;
+    margin: 20px;
+    
+
+}
+#b-butn{
+    display: block;
+}
+#submit{
+    margin-left: 7%;
+    display: block;
+}
+
+#delete-btn{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 0%;
+    border: none;
+    background-color: red;
+    color: white; 
+
+}
+td {
+    width: 230px;
+}
+table{
+    text-align: center;
+    margin-left: -280px;
+    border-radius: 30px;
+}
+
+th{
+padding: 10px;
+width: 230px;
+}
+.balance-detail{
+    background-color: rgb(243, 239, 239);
+    display: flex;
+    justify-content: space-evenly;
+    height: 64px;
+    text-align: center;
+    width: 209%;
+    border-radius: 10px;
+    align-items: center;
+}
+.detailed h2{
+    margin-left: -143px;
+}
+
+.detailed{
+    margin: 0px 0px 0px 33%;
+    position: fixed;
+}
+b{
+    color: red;
+    margin-left: 80px;
+}
+.section{
+    position: fixed;
+}
